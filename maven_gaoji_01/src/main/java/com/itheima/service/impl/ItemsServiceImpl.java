@@ -14,4 +14,9 @@ public class ItemsServiceImpl implements ItemsService {
         Items items = itemsDao.findById(id);
         return items;
     }
+
+    public Items findById1(Integer id) {
+        Items items = itemsDao.findById(id);
+        return items;
+    }
 }
